@@ -1,0 +1,63 @@
+
+/* Large Screen Sizes */
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.list-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.list-container > li{
+    list-style: none;
+}
+
+
+/* Mobile Screen Size */
+.navbar-mobile-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    margin: 0 30px;
+    padding: 20px 0;
+    /* border: 1px solid red; */
+}
+
+#hamburger-container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* Media Quieres */
+
+/* Large Screen  */
+@media(min-width: 769px){
+    .navbar-mobile-container{
+        display: none;
+    }
+}
+
+/* Tablet Size */
+/* @media(max-width: 768px){
+    .container{
+        display: none;
+    }
+
+    .navbar-mobile-container{
+        display: none;
+    }
+} */
+
+/* Small Screen */
+@media (max-width: 640px){
+    .container{
+        display: none;
+    }
+}

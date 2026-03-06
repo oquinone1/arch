@@ -1,0 +1,30 @@
+
+
+/* Mobile Footer Styling */
+.mobile-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    padding: 30px 0;
+}
+
+.mobile-footer-buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 100px;
+    margin-right: 35px;
+}
+.mobile-footer-buttons > li{
+    list-style: none;
+    color: darkgrey;
+}
+
+#mobile-see-portfolio{
+    background-color: black;
+    color: white;
+    margin: 30px 120px;
+    padding: 30px 20px ;
+}
